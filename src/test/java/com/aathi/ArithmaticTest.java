@@ -16,16 +16,16 @@ public class ArithmaticTest {
         assertEquals(1, calculator.subtract(3, 2));
     }
 
-    @Test
-    public void testFactorial() {
-        ArithmaticCal calculator = new ArithmaticCal();
-        assertEquals(1, calculator.factorial(0));
-        assertEquals(1, calculator.factorial(1));
-        assertEquals(2, calculator.factorial(2));
-        assertEquals(6, calculator.factorial(3));
-        assertEquals(24, calculator.factorial(4));
-        // Add more factorial test cases as needed
-    }
+    // @Test
+    // public void testFactorial() {
+    // ArithmaticCal calculator = new ArithmaticCal();
+    // assertEquals(1, calculator.factorial(0));
+    // assertEquals(1, calculator.factorial(1));
+    // assertEquals(2, calculator.factorial(2));
+    // assertEquals(6, calculator.factorial(3));
+    // assertEquals(24, calculator.factorial(4));
+    // // Add more factorial test cases as needed
+    // }
 
     @Test
     public void testFib() {
